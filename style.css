@@ -1,0 +1,272 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+
+
+}
+
+
+nav {         
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+nav .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 2;
+}
+
+nav .nav-list li {
+    margin-left: 20px;
+}
+
+nav .nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    letter-spacing: 3px;
+     transition: transform 0.3s ease;
+      display: inline-block; 
+}
+
+
+#manchete {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.manchete .titulo {
+   display: flex;
+  justify-content: center;   
+  align-items: center; 
+  text-align: center;
+  margin-top: 50px;    
+}
+
+#textmanchete {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.fundo1 {
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(brownfundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 130vh;
+
+}
+
+.introducao {
+    font-size: 18px;
+    line-height: 1.6;
+    width: 80%; 
+    margin-left: 200px; 
+    text-align: justify; 
+    color: white;
+    white-space: normal;
+    letter-spacing: 2px;
+}
+a.logo{
+    letter-spacing: 2px;
+    font-size: 35px;
+    padding: 26px;
+    cursor: default;
+}
+nav .nav-list li a:hover{
+    opacity: 0.75;
+    transform: scale(1.20);
+
+}
+#introducaotext{
+    background: radial-gradient(#3a3a70, #333359);
+    width: 100%;
+
+}
+#spaco{
+    height: 60vh;
+}
+ #Samuel {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #000;
+  display: block;
+  margin: 0 auto;
+}
+    
+  #caricatura {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5%;
+  border: 3px solid #000;
+  display: block;
+  margin: 0 auto;
+}
+
+   .legenda {
+  color: #c9cdd4;
+  margin-top: 8px;
+  font-size: 14px;
+}
+   
+    .fig-samuel {
+  float: right;              
+  text-align: center;        
+  width: 220px;               
+  margin-left: 20px;          
+  margin-bottom: 20px;
+}
+    .fig-caricatura {
+  text-align: center;
+  margin-top: 30px;
+}
+h1{
+    text-align: left;
+    margin-left: 200px;
+}
+td img{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+td img:hover{
+     transform: scale(1.05);
+  box-shadow: 0 0 10px #00f;
+  outline: none;
+}
+.albuns{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover;
+  border-radius: 10px;
+}
+.albunstext{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 50px;
+}
+.thumbs{
+    display: flex;
+    align-items:flex-start;
+    padding: 10px;
+}
+.musics{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.imgsthumb{
+     width: 500px;
+    height: 600px;
+     margin-left: 15px;
+}
+.texmusic{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+}
+.albun1{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li span.ativo {
+    color: #1f1e1e;
+    font-weight: bold;
+    
+    
+}
+#forms{
+    width: 55%;
+    height: 80%;
+    font-size: 25px;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 80%;
+    background-color: #333;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+}
+
+table{
+    text-align: center;
+}
+
+input{
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+input:focus{
+    box-shadow: 0 0 10px white;
+}
+
+#coluna1{ 
+    font-size: 45px;
+
+
+}
+#cadastro{
+    width: 100px;
+    height: 3vh;
+}
+mark{
+    background-color: #255199;
+}
+u{
+    text-decoration-color: black;
+
+}
+.button{
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+  border-radius: 10px;
+  width: 400px;
+  
+
+}
+.button:hover{
+    transform: scale(1.2);
+}
+
+
+

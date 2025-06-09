@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mano Bronw</title>
+	 <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="icon" href="brownIcon.jpeg">
+</head>
+<body>
+
+    <nav>
+        <a class="logo">Mano Brown</a>
+        <ul class="nav-list">
+           <li><a href="inicio.html">Início</a></li>
+            <li><a href="biografia.html">Biografia</a></li>
+            <li><a href="discografia.html">Discografia</a></li>
+            <li><span class="ativo">Fã</span></li>
+        </ul>
+    </nav>
+
+
+    <main> 
+    <form>
+       <table id="forms" align="center">
+           
+            <tr>
+                <td colspan="3" id="coluna1">
+                    Formulário do Fã
+
+                </td>
+
+           </tr>
+
+
+
+          <tr>
+              <td>
+               <label for="nome">Nome:</label><br>
+               <input type="text" name="nome" id="nome">
+           </td>
+
+                <td>
+               <label for="album">Álbun Favorito:</label><br>
+               <select style="width: 85%;">
+                    <option></option>
+                   <option>Sobrevivendo no Inferno</option>
+                   <option>Nada Como Um Dia Após o Outro Dia</option>
+                   <option>Raio X do Brasil</option>
+                   <option>mano brown boogie naipe</option>
+               </select>
+           </td>
+
+           </tr>
+
+
+           <tr>
+               <td>
+               <label for="data">Data de Nascimento:</label><br>
+               <input type="date" name="data" id="data">
+           </td>
+           <td>
+               <label for="music">Músicas que conheço:</label>
+               <input type="number" name="music" id="music" min="0" max="90">
+           </td>
+           </tr>
+           <tr>
+               <td>
+                   <label for="sexo">Sexo:</label><br>
+                  <input type="radio" name="sexo" id="sexo" checked> M
+                  <input type="radio" name="sexo" id="sexo"> F
+               </td>
+               <td>
+                  <input type="submit" value="Cadastrar" id="cadastro">
+              </td>
+           </tr>
+       </table>
+
+    </form>
+    </main> 
+
+    
+    
+</body>
+</html>
